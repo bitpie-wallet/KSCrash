@@ -122,6 +122,8 @@ NS_SWIFT_NAME(CrashInstallation)
                                message:(nullable NSString *)message
                      dismissButtonText:(NSString *)dismissButtonText;
 
+- (id<KSCrashReportFilter>)sink;
+
 @end
 
 NS_ASSUME_NONNULL_END
